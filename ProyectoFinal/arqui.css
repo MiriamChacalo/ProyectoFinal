@@ -5,6 +5,15 @@ img{
     width: 800px;
  margin-left: 250px;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
 .cardpadre{
     margin-bottom: 80px;
     display: flex;
@@ -12,7 +21,7 @@ img{
 }
 .card{
     border: 2px solid yellow;
-    width: 30vw;
+    width: 25vw;
     height: 500px;
     font-family: roboto;
     border-radius: 18px;
@@ -24,9 +33,25 @@ img{
     cursor: pointer;
 }
 .card-image{
-    width: 29.7vw;
+    width: 24.7vw;
     height: 250px;
     background: url(./assets/arquitecto.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image2{
+    width: 24.7vw;
+    height: 250px;
+    background: url(./assets/arquitectos4.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image3{
+    width: 24.7vw;
+    height: 250px;
+    background: url(./assets/arquitecto3.jpg);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
